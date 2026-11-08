@@ -98,3 +98,12 @@ dl.contact dt{color:var(--muted)}
 .site-footer{background:var(--ink);color:#cfe0de;padding:40px 0;font-size:14px;line-height:1.8}
 .site-footer .wrap{max-width:960px}
 .site-footer a{color:#fff}
+
+/* 輪播圖展示：橫向滑動 */
+.slides{margin:28px 0 36px}
+.slides .strip{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;-webkit-overflow-scrolling:touch}
+.slides img{flex:none;width:78%;max-width:340px;aspect-ratio:1080/1350;border-radius:12px;border:1px solid var(--line);scroll-snap-align:start;background:var(--mist)}
+.slides figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+.series-nav{display:flex;justify-content:space-between;gap:16px;margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:15px}
+.series-nav a{text-decoration:none;color:var(--ink);max-width:48%}
+.series-nav .lbl{display:block;font-size:13px;color:var(--muted)}
